@@ -34,6 +34,7 @@ img, a img
   margin-left: 0px;
   margin-right: auto;
   display: block;
+
 }
 
 body
@@ -53,7 +54,7 @@ article
 
 section
 {
-  width:80%;
+  width:75%;
   float:left;
 }
 
