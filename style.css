@@ -6,37 +6,6 @@ ul, h1
   padding: 0px;
 }
 
-.clearfix
-{
-  zoom: 1;
-}
-
-.clearfix:after
-{
-  display: table;
-  content: "";
-  zoom: 1;
-  clear: both;
-}
-
-.clearfix:before
-{
-  display: table;
-  content: "";
-  zoom: 1;
-}
-
-
-img, a img
-{
-  border: none;
-   width:auto;
-  margin-left: 0px;
-  margin-right: auto;
-  display: block;
-
-}
-
 body
 {
   margin: 0px auto;
@@ -45,35 +14,6 @@ body
   font-family: Arial;
   color: #4B4B4B;
   background: #FFFFFF;
-}
-
-article
-{
-  width:100%;
-}
-
-section
-{
-  width:75%;
-  float:left;
-}
-
-aside
-{
-  width:20%;
-  float:right;
-}
-
-a
-{
-  color: #FFFFFF;
-  text-decoration: none;
-  outline: none;
-}
-
-aside a
-{
-  color:#09c;
 }
 
 p
@@ -104,14 +44,9 @@ h3
   margin-top: 8px;
 }
 
-.smallteaser header img,
-.bigteaser section img
-{
-  float: left;
-  margin-right: 20px;
-}
 
-footer nav, .menu_top, main
+
+footer nav, main
 {
   max-width: 960px;
   margin: 0px auto;
@@ -123,31 +58,6 @@ footer nav, .menu_top, main
   width: 100%;
   height: 100%;
 }
-
-.menu_top
-{
-  list-style-type: none;
-  font-size: 1.25em;
-  font-family: 'Tauri', serif;
-}
-
-.menu_top li
-{
-  float: left;
-  display: inline-block;
-  margin-right: 1px;
-}
-
-.menu_top li a
-{
-  float: left;
-  display: block;
-  padding: 30px 15px 20px 15px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
-
 
 main
 {
@@ -193,13 +103,8 @@ main
   margin: 0px 18px;
 }
 
-.bigteaser
-{
-  margin-top: 18px;
-  list-style-type: none;
-}
 
-.bigteaser section
+section
 {
   float: left;
   width: 40%;
@@ -207,7 +112,7 @@ main
   padding: 30px 5%;
 }
 
-.bigteaser section h1
+section h1
 {
   color: #313131;
 }
@@ -217,18 +122,9 @@ main
   color: #FFFFFF;
 }
 
-.bigteaser section p a
-{
-  float: right;
-  padding: 5px 10px;
-  margin-top: 20px;
-  background-color: #2D2D2D;
-}
 
-.bigteaser p a:hover
-{
-  background-color: #424242;
-}
+
+
 
 footer
 {
@@ -248,40 +144,8 @@ footer nav ul
   margin-right: 20px;
 }
 
-footer ul li
-{
-  line-height: 1.6em;
-}
 
-footer .kontakt
-{
-  float: left;
-  margin-left: 30px;
-  margin-right: 20px;
-  line-height: 1.6em;
-}
 
-footer .branding
-{
-  margin: 0 auto;
-  line-height: 1.6em;
-  max-width:240px;
-  text-align:right;
-}
-
-footer a
-{
-  color: #fa774b;
-}
-
-footer a:hover
-{
-  color: #fa774b;
-}
-
-.smallteaser a,
-.banner .menu_top  li a:hover,
-.banner .menu_top  li a#active,
 .bigteaser section
 {
   background: #009ECE;
@@ -293,16 +157,7 @@ h1, h2
 }
 
 
-.banner
-{
-  background: #00000;
-  border-top: 5px solid #009ECE;
-}
-.kontakt
-{
-margin-left: 200px;
-text-align: center;
-}
+
 #bannerbild
 {margin-left: auto;
 margin-right: auto;
